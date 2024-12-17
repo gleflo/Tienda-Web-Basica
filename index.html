@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GR.com</title>
+
+    <!-- enlace de iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- librerias -->
+    <link rel="stylesheet" href="lib/bootstrap/bootstrap.5.3.3.css">
+
+    <script src="lib/bootstrap/bootstrap.5.3.3.js"></script>
+    <script src="lib/bootstrap/bootstrap.blunde.5.3.3.js"></script>
+    <script src="lib/jquery/jQuery v3.7.1.min.js"></script>
+
+    <link rel="stylesheet" href="css/header.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-md-2">
+
+                    <a class="navbar-brand" href="index.html">
+                        <h3>GR.com</h3>
+                    </a>
+                </div>
+                <section class="col-md-2">
+                    <div>
+                        <div>
+                            <button id="abrir" class="abrir-menu">
+                                <i class="bi bi-list"><span>Menu</span></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <nav class="nav" id="nav">
+                            <button id="cerrar" class="cerrar-menu"><i class="bi bi-x"></i></button>
+                            <ul class="nav-list">
+                                <li><a href="tecnologia.html">Tecnologia</a></li>
+                                <li><a href="mujer.html">Mujer</a></li>
+                                <li><a href="hombre.html">Hombre</a></li>
+                                <li><a href="ninos.html">Niños</a></li>
+                                <li><a href="mascotas.html">Mascotas</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </section>
+
+                <div class="col-md-5">
+                    <div class="search-container">
+                        <input type="text" placeholder="Buscar en Tienda Online" />
+                        <button class="search-button">
+                            <span class="search-icon"><i class="bi bi-search"></i></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <a href="#" class="text-white text-decoration-none">¡Hola!</a><br>
+                    <a href="login.html" class="text-white text-decoration-none">Inicia sesión</a>
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+
+                <div class="col-md-1">
+                    <a href="carrito.html">
+                        <i class="bi bi-cart3 fs-2"></i>
+                    <span id="cart-count" class="badge bg-danger">0</span>
+                    </a>
+                    <!-- <img class="imgcar" src="https://home.ripley.com.pe/rdex/bagsmallcomponent/cart-icon.svg"
+                        alt="Carro de compras" width="36" height="36"> -->
+                </div>
+
+
+            </div>
+
+        </div>
+    </header>
+    <!-- scrip para header -->
+    <script src="js/header.js"></script>
+
+    <main>
+        <div class="carousel">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="img/img1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="img/img2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/img3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/img4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white py-3">
+        <div class="container-fluid text-white py-4">
+            <div class="row text-center">
+
+                <div class="col-md-2 col-sm-6 mb-3 mb-md-0">
+                    <h6>Retiro en Tienda</h6>
+                    <p class="small">Más de 30 tiendas a lo largo de Perú</p>
+                </div>
+
+                <div class="col-md-2 col-sm-6 mb-3 mb-md-0">
+                    <i class="fas fa-comments fa-2x mb-2"></i>
+                    <h6>Atención al Cliente</h6>
+                    <p class="small">
+                        Escríbenos al número <br>
+                        <p>+51 970 311 999</p>
+                    </p>
+                </div>
+
+                <div class="col-md-2 col-sm-6 mb-3 mb-md-0">
+                    <i class="fas fa-undo fa-2x mb-2"></i>
+                    <h6>Siguenos</h6>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-twitter"></i>
+                    
+                </div>
+
+                <div class="col-md-2 col-sm-12">
+                    <a href="#" class="d-inline-block">
+                        <img src="img/libro de reclamaciones.jpg"
+                            alt="Libro de Reclamaciones" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-3 mb-md-0">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27584.89859310484!2d-77.56708682568362!3d-9.522247099999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91a90d367a4c88ab%3A0x56f05fcf84d79514!2sHuaraz%20Ancash!5e1!3m2!1ses!2spe!4v1733797888060!5m2!1ses!2spe" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div> 
+
+            </div>
+        </div>
+        <hr>
+        <div class="text-center py-3"><p>&copy; 2024 Ripley Perú - Todos los derechos reservados</p></div>
+    </footer>
+
+</body>
+
+</html>
